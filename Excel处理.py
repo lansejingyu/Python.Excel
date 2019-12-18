@@ -47,7 +47,9 @@ cell_value2=worksheet.cell_value(1,1)
 print(cell_value1)
 print(cell_value2)
 
+#%%
 cell_value1 =worksheet.cell(0,0).value
-cell_value2 =worksheet.cell()
-
+print(cell_value1)
+cell_value2 =worksheet.row(0)[0].value
+print(cell_value2)
 
