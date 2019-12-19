@@ -19,7 +19,7 @@ shenames = workbook.get_sheet_names()
 #在xlrd模块中为 sheetnames=workbook.sheet_names()
 print(shenames)
 #使用上述语(shenames = workbook.get_sheet_names())句会发出警告：DeprecationWarning: Call to deprecated function get_sheet_names (Use wb.sheetnames).
-#说明 get_sheet_names已经被弃用 可以改用 wb.sheetnames 方法
+#说明 get_sheet_names已经被弃用 可以改用 wb.sheetnames 方法(25行)
 
 #%%
 shenames = workbook.sheetnames
