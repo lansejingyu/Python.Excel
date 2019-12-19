@@ -20,5 +20,12 @@ sheet = book.add_sheet('test01',cell_overwrite_ok=True)
 sheet.write(0,0,'各省市')   # 其中的'0-行, 0-列'指定表中的单元，'各省市'是向该单元写入的内容
 sheet.write(0,1,'薪资收入')
 
+#也可以这样添加数据
+txt1 = '杭州市'
+txt2 = '5047.41'
+sheet.write(1,0,txt1)  #向工作表sheet的第二行，第一列插入txt1数据
+sheet.write(1,1,txt2)  #向工作表sheet的第二行，第二列插入txt2数据
 
+
+# 最后，将以上操作保存到指定的Excel文件中(先创建一个Excel文件。)
 book.save('C:\\Users\\EDZ\\Desktop\\zhanglei.xls')
