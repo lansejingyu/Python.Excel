@@ -11,3 +11,16 @@ import openpyxl
 workbook = openpyxl.load_workbook("C:\\Users\\EDZ\\Desktop\\1.xlsx")
 #与xlrd 模块的区别
 #wokrbook=xlrd.open_workbook("C:\\Users\\EDZ\\Desktop\\1.xlsx")
+
+#%%
+#获取所有工作表名
+#获取工作簿 workbook的所有工作表
+shenames = workbook.get_sheet_names()
+#在xlrd模块中为 sheetnames=workbook.sheet_names()
+print(shenames)
+#使用上述语(shenames = workbook.get_sheet_names())句会发出警告：DeprecationWarning: Call to deprecated function get_sheet_names (Use wb.sheetnames).
+#说明 get_sheet_names已经被弃用 可以改用 wb.sheetnames 方法
+
+#%%
+shenames = workbook.sheetnames
+print(shenames)
