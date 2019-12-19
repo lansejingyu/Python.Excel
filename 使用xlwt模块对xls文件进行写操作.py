@@ -1,4 +1,5 @@
 import xlwt  #2003以前的表格以.xls后缀，用xlwt来写表格,用xlrd来读取表格,搭配xlutils修改表格。
+             #2007的表格以.xlsx后缀，用openpyxl来读写表格。
 
 #创建工作簿
 #创建一个Workbook对象，相当于创建了一个Excel文件
