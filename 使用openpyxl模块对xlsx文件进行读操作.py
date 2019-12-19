@@ -8,7 +8,7 @@ Excel2007以上的版本，以xlsx为后缀。要对这种类型的Excel文件�
 import openpyxl
 
 #获取工作簿对象
-workbook = openpyxl.load_workbook("C:\\Users\\EDZ\\Desktop\\1.xlsx")
+workbook = openpyxl.load_workbook("C:\\Users\\EDZ\\Desktop\\3333.xlsx")
 #与xlrd 模块的区别
 #wokrbook=xlrd.open_workbook("C:\\Users\\EDZ\\Desktop\\1.xlsx")
 
