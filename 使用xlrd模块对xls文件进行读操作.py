@@ -1,9 +1,8 @@
-#%%
 #使用xlrd模块对xls文件进行读操作
 #2003以前的表格以.xls后缀，用xlwt来写表格,用xlrd来读取表格,搭配xlutils修改表格。
 
 #1.1 获取工作簿对象
-
+#%%
 # coding=gbk
 import xlrd  #引入模块
 
