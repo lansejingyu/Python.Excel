@@ -7,7 +7,7 @@
 import xlrd  #引入模块
 
 #打开文件，获取excel文件的workbook（工作簿）对象
-workbook=xlrd.open_workbook("C:\\Users\\EDZ\\Desktop\\1.xlsx")  #文件路径
+workbook=xlrd.open_workbook("D:\\Python.Excel处理\\1.xlsx")  #文件路径
 
 #1.2 获取工作表对象
 '''对工作簿”(workbook)workbook对象进行操作'''
