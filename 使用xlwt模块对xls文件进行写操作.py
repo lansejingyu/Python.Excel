@@ -57,5 +57,3 @@ for i in range(0,len(Project)):
 
 # 最后，将以上操作保存到指定的Excel文件中(先创建一个Excel文件。)
 book.save('D:\\Python.Excel处理\\zhanglei.xls')
-
-#撒大苏打的是
