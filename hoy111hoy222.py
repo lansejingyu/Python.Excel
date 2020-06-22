@@ -20,4 +20,4 @@ Province = list(target_list)
 for i in range(0, len(Province)):
 	sheet1.write(i + 1, 0, Province[i])
 
-book.save('C:\\Users\\EDZ\\Desktop\\123.xls')
+book.save('C:\\Users\\EDZ\\Desktop\\hoy.xls')
